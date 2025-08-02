@@ -472,7 +472,129 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="social-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="field-label" for="subscribe-email">
+              <input
+                class="input-field-subscribe"
+                type="email"
+                id="subscribe-email"
+                name="subscribe-email"
+                placeholder="Email"
+              />
+            </label>
+            <button class="hero-btn subscribe-btn" type="button">
+              Subscribe
+              <svg class="social-icon-subscribe" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop">
+      <div class="modal">
+        <button class="button btn-close" type="button">
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="form-title">Leave your contacts and we will call you back</p>
+        <form class="contact-form">
+          <div class="form-field">
+            <label class="field-label" for="user-name"
+              >Name
+              <div class="field">
+                <input
+                  class="input-field"
+                  type="text"
+                  id="user-name"
+                  name="user-name"
+                />
+                <svg class="icon-field" width="18" height="24">
+                  <use href="./images/icons.svg#icon-name"></use>
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div class="form-field">
+            <label class="field-label" for="user-phone"
+              >Phone
+              <div class="field">
+                <input
+                  class="input-field"
+                  type="tel"
+                  id="user-phone"
+                  name="user-phone"
+                />
+                <svg class="icon-field" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div class="form-field">
+            <label class="field-label" for="user-email"
+              >Email
+              <div class="field">
+                <input
+                  class="input-field"
+                  type="email"
+                  id="user-email"
+                  name="user-email"
+                />
+                <svg class="icon-field" width="18" height="24">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
+            </label>
+          </div>
+
+          <div class="form-field form-field-comments">
+            <label class="field-label" for="user-comment"
+              >Comment
+              <textarea
+                class="input-field comment-field"
+                name="user-comment"
+                rows=""
+                cols=""
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+
+          <div class="checkbox-area">
+            <input
+              class="def-checkbox visually-hidden"
+              type="checkbox"
+              id="user-agree"
+              name="user-agree"
+            />
+            <label class="field-label-checkbox" for="user-agree">
+              <span class="custom-checkbox">
+                <svg class="icon-check" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              <p class="accept-terms">
+                I accept the terms and conditions of the
+                <a
+                  class="link-policy"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Privacy Policy</a
+                >
+              </p>
+            </label>
+          </div>
+          <button class="hero-btn send-btn" type="button">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
