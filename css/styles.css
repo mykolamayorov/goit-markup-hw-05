@@ -613,7 +613,7 @@ button {
 
 .input-field:hover,
 .input-field:focus {
-  border-color: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .input-field:hover + .icon-field,
@@ -688,6 +688,10 @@ button {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.accept-text {
+  display: inline-flex;
 }
 
 .link-policy {
