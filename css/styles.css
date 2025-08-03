@@ -690,10 +690,6 @@ button {
   fill: #f4f4fd;
 }
 
-.accept-text {
-  display: inline-flex;
-}
-
 .link-policy {
   line-height: 1.33;
   text-decoration: underline;
